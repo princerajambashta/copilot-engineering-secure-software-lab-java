@@ -52,3 +52,5 @@ surefire-reports/
 # Coverage
 jacoco.exec
 coverage/
+error-log.txt
+pom-vulnerable-backup.xml

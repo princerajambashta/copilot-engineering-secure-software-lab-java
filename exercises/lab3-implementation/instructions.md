@@ -165,7 +165,7 @@ Fix these critical vulnerabilities:
    - Only allow relative URLs or trusted domains
 
 4. CORS:
-   - Replace @CrossOrigin(origins = "*") with specific allowed origins
+   - Replace @CrossOrigin(originPatterns = "*") with specific allowed origins
    - Remove allowCredentials when using multiple origins
 ```
 

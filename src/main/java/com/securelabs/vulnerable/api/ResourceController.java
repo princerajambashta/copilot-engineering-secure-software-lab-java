@@ -23,7 +23,7 @@ import java.util.*;
  */
 @RestController
 @RequestMapping("/api/resources")
-@CrossOrigin(origins = "*", allowCredentials = "true") // VULNERABLE: Wildcard CORS with credentials
+@CrossOrigin(originPatterns = "*", allowCredentials = "true") // VULNERABLE: Wildcard CORS with credentials
 public class ResourceController {
 
     private static final Map<String, Resource> resources = new HashMap<>();

@@ -377,7 +377,7 @@ Fix critical vulnerabilities:
 1. SSRF: Add URL allowlist, block internal IPs (10.x, 172.16.x, 192.168.x, 169.254.x), HTTPS only
 2. AUTHORIZATION: Add @PreAuthorize or manual auth check, verify resource ownership
 3. OPEN REDIRECT: Validate redirect URLs against allowlist
-4. CORS: Replace @CrossOrigin(origins = "*") with specific allowed origins
+4. CORS: Replace @CrossOrigin(originPatterns = "*") with specific allowed origins
 
 Reference: #file:src/main/java/com/securelabs/secure/api/SecureResourceController.java
 ```

@@ -34,7 +34,7 @@ This repository contains **intentionally vulnerable code** for educational purpo
    - Accept suggestions with `Tab`
 
 3. **Terminal Commands**
-   - Use `#runInTerminal` in Copilot Chat
+   - Use `#runInTerminal` 
    - Example: `#runInTerminal mvn dependency:tree`
 
 4. **File References**

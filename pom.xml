@@ -94,13 +94,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- INTENTIONALLY VULNERABLE DEPENDENCIES FOR A06 DEMO -->
-        <!-- DO NOT USE IN PRODUCTION -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.9.8</version> <!-- CVE-2019-12384: Deserialization -->
-        </dependency>
+
     </dependencies>
 
     <build>
